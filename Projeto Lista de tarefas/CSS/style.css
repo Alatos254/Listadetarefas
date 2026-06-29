@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cec3c3;
+    margin:0;
+    padding:0;
+    font-family: arial, sans-serif, Helvetica;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+header {
+    margin: auto auto;
+    align-items: center;
+    width: 60%;
+    flex-flow: row wrap;
+    display: flex;
+}
+
+input {
+    width: 80%;
+    font-size: 1.7rem;
+    height: 50px;
+    padding-left: 10%;
+}
+
+button.add {
+    background: green;
+    cursor: pointer;
+    width:20%;
+    font-weight: bold;
+    color: white;
+    height: 50px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main{
+    margin: auto auto;
+    width: 60%;
+    flex-flow: row wrap;
+    display: flex;
+    padding-top: 50px;
+}
+
+.item, .itemFeito {
+    height: 50px;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    display: flex;
+    width: 100%;
+    box-shadow: 0 0 20px #ccc;
+    margin-bottom: 0.5%;
+    cursor: pointer;
+}
+
+.itemFeito {
+    background: #d4f6d9;
+     opacity: 0.6;
+    text-decoration: line-through;
+}
+
+.itemFeito .itemNome {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.itemIcone {
+    flex:20%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.itemNome {
+    flex:65%;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.itemBotao {
+    flex:15%;
+}
+
+.delete {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+}
+
+.mdi-check-circle {
+    color: green;
+}

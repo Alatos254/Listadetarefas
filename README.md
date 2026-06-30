@@ -1,4 +1,4 @@
-markdown# 📝 Lista de Tarefas (To-Do List)
+# 📝 Lista de Tarefas (To-Do List)
 
 Este é o meu primeiro projeto web focado no aprendizado prático de HTML, CSS e JavaScript. 
 O objetivo principal foi criar uma aplicação simples e funcional para gerenciamento de tarefas diárias.
